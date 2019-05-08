@@ -1,0 +1,22 @@
+.formContainer {
+  padding: 24px 48px;
+  margin-top: calc(10vh / 2);
+}
+
+@media screen and (min-height: 600px) {
+  .formContainer {
+    margin-top: calc(30vh / 2);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .formContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

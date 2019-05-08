@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# some platform/IDE specific files
+.DS_STORE
+.idea
+*.iml

@@ -122,7 +122,8 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
       ENV: JSON.stringify("local"),
-      API_URL: JSON.stringify("http://localhost:3000")
+      // API_URL: JSON.stringify("http://localhost:3000")
+      API_URL: JSON.stringify("https://e1751777-9b1b-492d-bb5e-38901e60c286.mock.pstmn.io")
     }),
   ]
 };
